@@ -1,0 +1,67 @@
+/* HomeComponent.css */
+
+.box {
+  border: 2px solid rgb(232, 180, 180);
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+  height: 450px;
+  color: rgb(255, 0, 0);
+  margin-top: 5%;
+  margin-left: 35%;
+}
+img {
+  width: 100px;
+  mix-blend-mode: darken;
+}
+
+h2 {
+  color: #333;
+  font-style: italic;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+  width: 200px;
+  margin-left: 12px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #e1d22c;
+  color: #040404;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #d26fb3;
+}
+
+p {
+  margin: 10px 0;
+  color: #333;
+}
+
+p.loading {
+  color: #007bff;
+}
+
+p.error {
+  color: red;
+}
+
+p:hover {
+  color: rgb(255, 149, 0);
+  cursor: pointer;
+  font-size: 20px;
+}
